@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header div a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+header .mid-nav span a:hover{
+    background-color: #263238;
+    color: white;
+    padding: 2px 3px;
+}
+header div span .text-success:hover{
+    text-decoration: underline;
+    
+}
+ footer{
+    background-color: #263238;
+ }
+ footer i{
+    color: white;
+ }
+ .footer-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+
+ }
+ .footer-list li{
+    list-style: none;
+ }
+ .footer-list a{
+    text-decoration: none;
+    color: white;
+ }
+
+ 
